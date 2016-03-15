@@ -1,0 +1,6 @@
+!/bin/sh
+set -e
+sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+git clone https://github.com/okhoshi/zsh-customs ~/.zsh-customs
+chsh /bin/zsh

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+	--apt "aptitude" \
+	--architectures "amd64" \
+	--binary-filesystem "ext4" \
+	--bootappend-live "persistence keyboard-layouts=be boot=live" \
+	--binary-images "hdd" \
+ 	--archive-areas "main contrib non-free" \
+ 	--apt-indices "false" \
+	--apt-recommends "false" \
+	"${@}"
