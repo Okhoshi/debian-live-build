@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"JQuery"
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"CSS3",
+		"Dockerfile Syntax Highlighting",
+		"Flask Completions",
+		"Git",
+		"GitGutter",
+		"Gitignore",
+		"GitStatus",
+		"HexViewer",
+		"jQuery",
+		"LineEndings",
+		"Markdown Preview",
+		"Package Control",
+		"Search Stack Overflow",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"SublimeManpage",
+		"SubNotify",
+		"Sunrise Theme",
+		"Virtualenv"
+	]
+}
